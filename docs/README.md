@@ -1,4 +1,4 @@
-# Encode to Base64 format
+# Encode to Base 64 format
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +20,5 @@ a-z (26-51)
 
 * Each 6-bit chunk corresponds to an index in this alphabet.
 
-4. **Add Padding if Necessary**: If the original data wasn’t a multiple of 3 bytes (24 bits), Base64 encoding will pad the result with one or two `=` characters. This padding ensures the encoded output is a multiple of 4 characters long.\
+4. **Add Padding if Necessary**: If the original data wasn’t a multiple of 3 bytes (24 bits), Base64 encoding will pad the result with one or two `=` characters. This padding ensures the encoded output is a multiple of 4 characters long.
 
-
-####

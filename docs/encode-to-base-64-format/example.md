@@ -40,4 +40,22 @@ If you are using a programming language or library, most of them provide built-i
 
 
 
+{% code title="Encoding in python" fullWidth="true" %}
+```python
+import base64
+
+# Your actual username and password
+username = "rzp_live_vVxRXte0kqZdwX"
+password = "2GIqXgqNQnoMKyxDCZ7hI4ul"
+
+# Combine username and password with a colon
+credentials = f"{username}:{password}"
+
+# Encode the combined string using Base64
+encoded_credentials = base64.b64encode(credentials.encode("utf-8")).decode("utf-8")
+
+print(f"Encoded credentials for HTTP Basic Authentication: {encoded_credentials}")
+```
+{% endcode %}
+
 {% embed url="https://www.youtube.com/watch?v=aUdKd0IFl34" %}
