@@ -35,4 +35,9 @@ While there isn’t a straightforward “formula” per se, you can think of it 
 3. Map each chunk to a Base64 character using the Base64 alphabet.
 4. Add padding if necessary.
 
-If you are using a programming language or library, most of them provide built-in methods to handle Base64 encoding, so you often won’t need to manually perform these steps.
+If you are using a programming language or library, most of them provide built-in methods to handle Base64 encoding, so you often won’t need to manually perform these steps.\
+
+
+
+
+{% embed url="https://www.youtube.com/watch?v=aUdKd0IFl34" %}
